@@ -1,11 +1,15 @@
 import React, { Component } from "react";
+import "./main.css";
 class Main extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div id="Banner">
         <h1>OG Marketing</h1>
-        <p>Let the experts do it for you.</p>
+        <h2>
+          Specialists In Web Design, SEO, Branding, Marketing Strategy, Paid
+          Search, Social Media
+        </h2>
       </div>
     );
   }
